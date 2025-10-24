@@ -1,1 +1,1 @@
-export { useSignal } from "./useSignal"
+export * from "./useSignal"
