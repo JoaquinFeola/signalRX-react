@@ -4,20 +4,20 @@
   "description": "A react adapter to use signalrx",
   "type": "module",
   "files": [
-    "dist",
-    "index.d.ts"
+    "dist"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "types": "./index.d.ts",
   "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/index.js"
+    ".": {
+      "import": "./dist/index.js"
+    }
   },
   "scripts": {
     "build": "tsc && vite build"
   },
   "devDependencies": {
+    "@types/node": "^24.9.1",
     "@types/react": "^19.2.2",
     "@vitejs/plugin-react": "^5.1.0",
     "react": "^19.2.0",
@@ -26,7 +26,7 @@
     "vite": "^7.1.5"
   },
   "peerDependencies": {
-    "react": "^19.2.0",
+    "react": ">=18.0.0",
     "signalrx": "^1.0.2"
   },
   "keywords": [
@@ -42,5 +42,8 @@
     "type": "git",
     "url": "git+https://github.com/JoaquinFeola/signalRX-react.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vite-plugin-dts": "^4.5.4"
+  }
 }
