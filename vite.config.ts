@@ -7,7 +7,8 @@ export default defineConfig({
     lib: {
       entry: './src/index.ts',
       name: 'signalrx-react',
-      fileName: 'signalrx-react',
+      fileName: 'index',
+      formats: ["es"]
     },
     rollupOptions: {
       external: ["vite"]
