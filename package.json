@@ -1,6 +1,7 @@
 {
   "name": "signalrx-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A react adapter to use signalrx",
   "type": "module",
   "files": [
     "dist",
@@ -29,5 +30,18 @@
   },
   "peerDependencies": {
     "react": "^19.2.0"
+  },
+   "keywords": [
+    "signal",
+    "reactive",
+    "store",
+    "typescript",
+    "global-state",
+    "react",
+    "vite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinFeola/signalRX-react.git"
   }
 }

@@ -9,5 +9,10 @@ export default defineConfig({
       name: 'signalrx-react',
       fileName: 'signalrx-react',
     },
+    rollupOptions: {
+      external: ["vite"]
+    }
   },
+
+  
 })
