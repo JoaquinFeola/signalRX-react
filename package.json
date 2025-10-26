@@ -45,7 +45,7 @@
     "type": "git",
     "url": "git+https://github.com/JoaquinFeola/signalRX-react.git"
   },
-  "license": "BSD-2-Clause",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "vite-plugin-dts": "^4.5.4"
   }
