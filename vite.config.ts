@@ -23,7 +23,12 @@ export default defineConfig({
     },
 
     rollupOptions: {
-      external: ["vite", "react"]
+      external: ["vite", "react"],
+      output: {
+        globals: {
+          react: "React"
+        }
+      }
     }
   },
 
